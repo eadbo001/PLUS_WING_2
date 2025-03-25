@@ -2153,7 +2153,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 755f047ddbbd3db469bc5735140272b1, type: 2}
+      objectReference: {fileID: 2100000, guid: b3da8076fd5478344aca2d7ccf768fbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 5724794feb9282044b9380b4814e8909,
         type: 3}
       propertyPath: m_Name
@@ -2485,7 +2485,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77799a083aab20640bbab1a95a7ce2d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AsteroidPrefabs: []
+  AsteroidPrefabs:
+  - {fileID: 632865782790884403, guid: 7963448c7f357494ca9733dc16e4062c, type: 3}
+  - {fileID: 5231283508189130187, guid: 477d3c1d5d4edde4ea74cc6a428b0fca, type: 3}
+  - {fileID: 6172595290172849724, guid: 5a829879541166e4cb1882d5a91ba650, type: 3}
   AsteroidsAmount: 3000
   AsteroidXYPosRandomness: 5
   AsteroidsMinDistance: 100
